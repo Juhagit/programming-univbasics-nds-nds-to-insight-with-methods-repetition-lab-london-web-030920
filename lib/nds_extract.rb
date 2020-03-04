@@ -53,9 +53,6 @@ def total_gross(source)
   # return the total
   
   
-  director_index = 0
-  director_list = Array.new
-
  i = 0
   while i < source.size do
     director = source[i]
