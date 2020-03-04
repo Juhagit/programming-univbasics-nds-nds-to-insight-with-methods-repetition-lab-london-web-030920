@@ -56,10 +56,10 @@ def total_gross(source)
  i = 0
   while i < source.size do
     director = source[i]
-    result[director += gross_for_director(source[i])
+    gross_for_director += gross_for_director(source[i])
     i += 1
   end
-  result
+  gross_for_director
   
 
   
