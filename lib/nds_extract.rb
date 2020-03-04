@@ -48,7 +48,7 @@ result = {}
  i = 0
   while i < nds.size do
     director = nds[i]
-    result[director[:name]] = gross_for_director(director)
+    result[director[:name]] = gross_for_director(source)
     i += 1
   end
   result
