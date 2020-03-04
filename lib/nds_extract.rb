@@ -46,7 +46,7 @@ def total_gross(source)
   
 result = {}
  i = 0
-  while i < nds.size do
+  while i < source.size do
     director = nds[i]
     result[director[:name]] = gross_for_director(source)
     i += 1
