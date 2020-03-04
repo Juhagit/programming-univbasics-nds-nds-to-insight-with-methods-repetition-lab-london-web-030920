@@ -52,14 +52,14 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
- gross_for_director = 0  
+ gross = 0  
  i = 0
   while i < source.size do
     director = source[i]
-    gross_for_director += gross_for_director(source[i])
+    gross += gross(source[i])
     i += 1
   end
-  gross_for_director
+  gross
   
 
   
