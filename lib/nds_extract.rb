@@ -37,9 +37,8 @@ director_index = 0
     director_index += 1
   end
   director_list
-end	end
+end	
 
-end 
 
 
 def total_gross(source)
