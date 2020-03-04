@@ -44,7 +44,14 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-
+result = {}
+ i = 0
+  while i < nds.size do
+    director = nds[i]
+    result[director[:name]] = gross_for_director(director)
+    i += 1
+  end
+  result
   
 
   
